@@ -1,45 +1,37 @@
-# Project Name
-> Outline a brief description of your project.
+# Melanoma Detection
+> To build a CNN based model which can accurately detect melanoma. Melanoma is a type of cancer that can be deadly if not detected early. It accounts for 75% of skin cancer deaths. A solution that can evaluate images and alert dermatologists about the presence of melanoma has the potential to reduce a lot of manual effort needed in diagnosis.
 
 
 ## Table of Contents
-* [General Info](#general-information)
+* [Objective](#objective)
 * [Technologies Used](#technologies-used)
 * [Conclusions](#conclusions)
 * [Acknowledgements](#acknowledgements)
 
-<!-- You can include any other section that is pertinent to your problem -->
 
-## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
-
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
-
-## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+## Objective
+- Use a dataset consisting of 2357 images of malignant and benign oncological diseases of 9 classes, which were formed from the International Skin Imaging Collaboration (ISIC)
+- Create a CNN model, which can accurately detect 9 classes present in the dataset.
+- Choose an appropriate optimiser and loss function for model training
+- Train the model for ~30 epochs
+- Explain the findings
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
-
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+- NumPy - version 1.21.6
+- Pandas - version 1.3.5
+- PIL - version 7.1.2
+- Matplotlib - version 3.4.3
+- Tensorflow - version 2.8.2
+- Keras - version 2.8.0
+- Augmentor - version 0.2.10
 
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
+## Conclusions
+-
 
 ## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
-
+- Reference code taken from Upgrad Learn Portal
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
+Created by [@bappa-2000] - feel free to contact me!
