@@ -13,7 +13,7 @@
 - Use a dataset consisting of 2357 images of malignant and benign oncological diseases of 9 classes, which were formed from the International Skin Imaging Collaboration (ISIC)
 - Create a CNN model, which can accurately detect 9 classes present in the dataset.
 - Choose an appropriate optimiser and loss function for model training
-- Train the model for ~30 epochs
+- Train the model for ~50 epochs
 - Explain the findings
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
@@ -28,10 +28,14 @@
 - Augmentor - version 0.2.10
 
 ## Conclusions
--
+- The 3rd Model built using Augmentor to remove class imbalance looks good.
+- Accuracy level of this model is good.
+- There is stil some overfitting as the validation loss is higher than the training loss. 
+- More epochs and layers can be added while building this model to overcome overfitting
 
 ## Acknowledgements
 - Reference code taken from Upgrad Learn Portal
+- Some Google search 
 
 ## Contact
 Created by [@bappa-2000] - feel free to contact me!
